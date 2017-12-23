@@ -1,0 +1,6 @@
+framework module Pods_DataBurialPoint_Swift {
+  umbrella header "Pods-DataBurialPoint_Swift-umbrella.h"
+
+  export *
+  module * { export * }
+}
