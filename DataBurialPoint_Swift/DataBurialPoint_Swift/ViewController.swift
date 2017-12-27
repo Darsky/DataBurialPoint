@@ -8,8 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController
+{
 
+    @IBOutlet weak var _logView: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -17,12 +20,18 @@ class ViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool)
     {
+        super.viewDidAppear(animated)
+
+    }
+    
+    @IBAction func didToNextPageButtonTouch(_ sender: Any)
+    {
         let model = DataBurialPointModel()
-        model.name = "页面ViewController 进入"
+        model.name = "将要进入页面SecondController"
         model.page = "ViewController"
         DataBurialPointManager.shareManager.insetDataWithModel(model: model)
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

@@ -45,7 +45,7 @@ class DataBurialPointManager: NSObject
             }
             catch
             {
-                print(self.dataBase?.lastErrorMessage())
+                print((self.dataBase?.lastErrorMessage() as! String))
             }
 
             self.dataBase?.close()
@@ -61,5 +61,16 @@ class DataBurialPointManager: NSObject
             "operationTime INTEGER"+");"
         
         return self.dataBase!.executeStatements(sql)
+    }
+    
+    func loadAllDataBurialPoint() -> Array<AnyObject>?
+    {
+        let sql = "SELECT * FROM Data_Burial_Point"
+        if self.dataBase!.open() && self.createTable()
+        {
+            
+        }
+        
+        return nil
     }
 }

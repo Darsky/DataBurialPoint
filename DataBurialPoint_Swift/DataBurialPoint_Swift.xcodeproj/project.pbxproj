@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B97CA99A63A7DFBBE5AC1A12 /* Pods_DataBurialPoint_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE712CE23FE57B1FE42709B1 /* Pods_DataBurialPoint_Swift.framework */; };
+		DE33A6741FF3A43C005E0A56 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE33A6731FF3A43C005E0A56 /* SecondViewController.swift */; };
 		DE80E3C01FEE4E6900168690 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE80E3BF1FEE4E6900168690 /* AppDelegate.swift */; };
 		DE80E3C21FEE4E6900168690 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE80E3C11FEE4E6900168690 /* ViewController.swift */; };
 		DE80E3C51FEE4E6900168690 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE80E3C31FEE4E6900168690 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		5528A8EFAD6673FBE646064D /* Pods-DataBurialPoint_Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataBurialPoint_Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-DataBurialPoint_Swift/Pods-DataBurialPoint_Swift.release.xcconfig"; sourceTree = "<group>"; };
 		828EE7FF8433E0E9BD3E5E3B /* Pods-DataBurialPoint_Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataBurialPoint_Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DataBurialPoint_Swift/Pods-DataBurialPoint_Swift.debug.xcconfig"; sourceTree = "<group>"; };
 		AE712CE23FE57B1FE42709B1 /* Pods_DataBurialPoint_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DataBurialPoint_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE33A6731FF3A43C005E0A56 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		DE80E3BC1FEE4E6900168690 /* DataBurialPoint_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataBurialPoint_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE80E3BF1FEE4E6900168690 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE80E3C11FEE4E6900168690 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				DE80E3C61FEE4E6900168690 /* Assets.xcassets */,
 				DE80E3C81FEE4E6900168690 /* LaunchScreen.storyboard */,
 				DE80E3CB1FEE4E6900168690 /* Info.plist */,
+				DE33A6731FF3A43C005E0A56 /* SecondViewController.swift */,
 			);
 			path = DataBurialPoint_Swift;
 			sourceTree = "<group>";
@@ -234,6 +237,7 @@
 				DE80E3D31FEE517B00168690 /* DataBurialPointManager.swift in Sources */,
 				DE80E3D51FEE560800168690 /* DataBurialPointModel.swift in Sources */,
 				DE80E3C21FEE4E6900168690 /* ViewController.swift in Sources */,
+				DE33A6741FF3A43C005E0A56 /* SecondViewController.swift in Sources */,
 				DE80E3C01FEE4E6900168690 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
