@@ -41,7 +41,7 @@ class DataBurialPointManager: NSObject
             do
             {
                 try self.dataBase?.executeUpdate(sql, values: [model.name,model.page,model.operationTime])
-                print("数据库操作成功")
+                print("数据库操作成功 写入数据 ("+model.name+"\n"+model.page+"\n"+model.operationTime+")")
             }
             catch
             {
